@@ -1,0 +1,64 @@
+[0.258s] Invoking command in '/home/johan/mapping_sample_ros2/build/fdilink_ahrs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/johan/mapping_sample_ros2/build/fdilink_ahrs -- -j16 -l16
+[0.290s] [35m[1mScanning dependencies of target ahrs_driver_node[0m
+[0.301s] [ 28%] Built target imu_tf_node
+[0.317s] [ 71%] [32mBuilding CXX object CMakeFiles/ahrs_driver_node.dir/src/ahrs_driver.cpp.o[0m
+[0.318s] [ 71%] Built target odom_node
+[1.573s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:[m[K In member function ‘[01m[Kvoid FDILink::ahrsBringup::processLoop()[m[K’:
+[1.573s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:149:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kground_sn_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.573s]   149 |       size_t [01;35m[Kground_sn_s[m[K = serial_.read(ground_sn, 1);
+[1.573s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[1.573s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:174:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kground_ignore_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.573s]   174 |       size_t [01;35m[Kground_ignore_s[m[K = serial_.read(ground_ignore, (check_len[0] + 4));
+[1.573s]       |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+[1.575s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:225:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.575s]   225 |       size_t [01;35m[Kdata_s[m[K = serial_.read(imu_frame_.read_buf.read_msg, (IMU_LEN + 1));  // 48+1
+[1.575s]       |              [01;35m[K^~~~~~[m[K
+[1.598s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:266:26:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kq_xiao_rr[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[1.599s]   266 |       Eigen::Quaterniond [01;35m[Kq_xiao_rr[m[K = Eigen::AngleAxisd(PI / 2, Eigen::Vector3d::UnitZ()) *
+[1.599s]       |                          [01;35m[K^~~~~~~~~[m[K
+[1.599s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:122:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktype_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.599s]   122 |     size_t [01;35m[Ktype_s[m[K = serial_.read(head_type, 1);
+[1.599s]       |            [01;35m[K^~~~~~[m[K
+[1.599s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:136:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klen_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.599s]   136 |     size_t [01;35m[Klen_s[m[K = serial_.read(check_len, 1);
+[1.599s]       |            [01;35m[K^~~~~[m[K
+[1.599s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:179:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksn_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.599s]   179 |     size_t [01;35m[Ksn_s[m[K = serial_.read(check_sn, 1);
+[1.599s]       |            [01;35m[K^~~~[m[K
+[1.600s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:181:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrc8_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.600s]   181 |     size_t [01;35m[Kcrc8_s[m[K = serial_.read(head_crc8, 1);
+[1.600s]       |            [01;35m[K^~~~~~[m[K
+[1.600s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:184:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrc16_H_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.600s]   184 |     size_t [01;35m[Kcrc16_H_s[m[K = serial_.read(head_crc16_H, 1);
+[1.600s]       |            [01;35m[K^~~~~~~~~[m[K
+[1.600s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:185:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrc16_L_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[1.600s]   185 |     size_t [01;35m[Kcrc16_L_s[m[K = serial_.read(head_crc16_L, 1);
+[1.600s]       |            [01;35m[K^~~~~~~~~[m[K
+[2.678s] [ 85%] [32m[1mLinking CXX executable ahrs_driver_node[0m
+[2.798s] [100%] Built target ahrs_driver_node
+[2.809s] Invoked command in '/home/johan/mapping_sample_ros2/build/fdilink_ahrs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/johan/mapping_sample_ros2/build/fdilink_ahrs -- -j16 -l16
+[2.849s] Invoking command in '/home/johan/mapping_sample_ros2/build/fdilink_ahrs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/johan/mapping_sample_ros2/build/fdilink_ahrs
+[2.860s] -- Install configuration: ""
+[2.860s] -- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/lib/fdilink_ahrs/ahrs_driver_node
+[2.861s] -- Set runtime path of "/home/johan/mapping_sample_ros2/install/fdilink_ahrs/lib/fdilink_ahrs/ahrs_driver_node" to ""
+[2.861s] -- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/lib/fdilink_ahrs/imu_tf_node
+[2.861s] -- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/lib/fdilink_ahrs/odom_node
+[2.861s] -- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/launch
+[2.862s] -- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/launch/ahrs_driver.launch.py
+[2.862s] -- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/config
+[2.862s] -- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/ament_index/resource_index/package_run_dependencies/fdilink_ahrs
+[2.862s] -- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/ament_index/resource_index/parent_prefix_path/fdilink_ahrs
+[2.862s] -- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/environment/ament_prefix_path.sh
+[2.862s] -- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/environment/ament_prefix_path.dsv
+[2.862s] -- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/environment/path.sh
+[2.862s] -- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/environment/path.dsv
+[2.862s] -- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.bash
+[2.862s] -- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.sh
+[2.862s] -- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.zsh
+[2.862s] -- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.dsv
+[2.862s] -- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/package.dsv
+[2.862s] -- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/ament_index/resource_index/packages/fdilink_ahrs
+[2.862s] -- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/cmake/fdilink_ahrsConfig.cmake
+[2.862s] -- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/cmake/fdilink_ahrsConfig-version.cmake
+[2.862s] -- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/package.xml
+[2.863s] Invoked command in '/home/johan/mapping_sample_ros2/build/fdilink_ahrs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/johan/mapping_sample_ros2/build/fdilink_ahrs

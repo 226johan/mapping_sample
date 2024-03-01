@@ -1,0 +1,29 @@
+[35m[1mScanning dependencies of target ahrs_driver_node[0m
+[ 28%] Built target odom_node
+[ 57%] Built target imu_tf_node
+[ 71%] [32mBuilding CXX object CMakeFiles/ahrs_driver_node.dir/src/ahrs_driver.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable ahrs_driver_node[0m
+[100%] Built target ahrs_driver_node
+-- Install configuration: ""
+-- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/lib/fdilink_ahrs/ahrs_driver_node
+-- Set runtime path of "/home/johan/mapping_sample_ros2/install/fdilink_ahrs/lib/fdilink_ahrs/ahrs_driver_node" to ""
+-- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/lib/fdilink_ahrs/imu_tf_node
+-- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/lib/fdilink_ahrs/odom_node
+-- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/launch
+-- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/launch/ahrs_driver.launch.py
+-- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/config
+-- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/ament_index/resource_index/package_run_dependencies/fdilink_ahrs
+-- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/ament_index/resource_index/parent_prefix_path/fdilink_ahrs
+-- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/environment/ament_prefix_path.sh
+-- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/environment/path.sh
+-- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/environment/path.dsv
+-- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.bash
+-- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.sh
+-- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.zsh
+-- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.dsv
+-- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/package.dsv
+-- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/ament_index/resource_index/packages/fdilink_ahrs
+-- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/cmake/fdilink_ahrsConfig.cmake
+-- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/cmake/fdilink_ahrsConfig-version.cmake
+-- Up-to-date: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/package.xml
