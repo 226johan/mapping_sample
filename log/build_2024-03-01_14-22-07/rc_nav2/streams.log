@@ -1,0 +1,58 @@
+[0.174s] Invoking command in '/home/johan/mapping_sample_ros2/build/rc_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/johan/mapping_sample_ros2/src/rc_nav2 -DCMAKE_INSTALL_PREFIX=/home/johan/mapping_sample_ros2/install/rc_nav2
+[0.208s] -- The C compiler identification is GNU 9.4.0
+[0.249s] -- The CXX compiler identification is GNU 9.4.0
+[0.254s] -- Check for working C compiler: /usr/bin/cc
+[0.299s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.299s] -- Detecting C compiler ABI info
+[0.344s] -- Detecting C compiler ABI info - done
+[0.355s] -- Detecting C compile features
+[0.355s] -- Detecting C compile features - done
+[0.357s] -- Check for working CXX compiler: /usr/bin/c++
+[0.407s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.408s] -- Detecting CXX compiler ABI info
+[0.458s] -- Detecting CXX compiler ABI info - done
+[0.466s] -- Detecting CXX compile features
+[0.466s] -- Detecting CXX compile features - done
+[0.468s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.484s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.484s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.605s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.653s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.654s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.654s] -- Added test 'lint_cmake' to check CMake code style
+[0.654s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.655s] -- Added test 'xmllint' to check XML markup files
+[0.656s] -- Configuring done
+[0.657s] -- Generating done
+[0.657s] -- Build files have been written to: /home/johan/mapping_sample_ros2/build/rc_nav2
+[0.660s] Invoked command in '/home/johan/mapping_sample_ros2/build/rc_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/johan/mapping_sample_ros2/src/rc_nav2 -DCMAKE_INSTALL_PREFIX=/home/johan/mapping_sample_ros2/install/rc_nav2
+[0.664s] Invoking command in '/home/johan/mapping_sample_ros2/build/rc_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/johan/mapping_sample_ros2/build/rc_nav2 -- -j16 -l16
+[0.691s] Invoked command in '/home/johan/mapping_sample_ros2/build/rc_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/johan/mapping_sample_ros2/build/rc_nav2 -- -j16 -l16
+[0.717s] Invoking command in '/home/johan/mapping_sample_ros2/build/rc_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/johan/mapping_sample_ros2/build/rc_nav2
+[0.723s] -- Install configuration: ""
+[0.723s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/launch
+[0.723s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/launch/online_async_launch.py
+[0.723s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/launch/bringup_no_amcl_launch.py
+[0.723s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/launch/robot_localization.launch.py
+[0.723s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/launch/navigation_launch.py
+[0.723s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/params
+[0.723s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/params/nav2_params_md.yaml
+[0.724s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/params/ekf.yaml
+[0.724s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/params/mapper_params_online_async.yaml
+[0.724s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/params/nav2_params.yaml
+[0.724s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/ament_index/resource_index/package_run_dependencies/rc_nav2
+[0.724s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/ament_index/resource_index/parent_prefix_path/rc_nav2
+[0.724s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/environment/ament_prefix_path.sh
+[0.724s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/environment/ament_prefix_path.dsv
+[0.724s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/environment/path.sh
+[0.724s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/environment/path.dsv
+[0.724s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/local_setup.bash
+[0.724s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/local_setup.sh
+[0.724s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/local_setup.zsh
+[0.724s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/local_setup.dsv
+[0.724s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/package.dsv
+[0.724s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/ament_index/resource_index/packages/rc_nav2
+[0.724s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/cmake/rc_nav2Config.cmake
+[0.724s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/cmake/rc_nav2Config-version.cmake
+[0.724s] -- Installing: /home/johan/mapping_sample_ros2/install/rc_nav2/share/rc_nav2/package.xml
+[0.725s] Invoked command in '/home/johan/mapping_sample_ros2/build/rc_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/johan/mapping_sample_ros2/build/rc_nav2

@@ -40,7 +40,7 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rc_nav2" TYPE DIRECTORY FILES
     "/home/johan/mapping_sample_ros2/src/rc_nav2/launch"
-    "/home/johan/mapping_sample_ros2/src/rc_nav2/config"
+    "/home/johan/mapping_sample_ros2/src/rc_nav2/params"
     )
 endif()
 

@@ -1,4 +1,0 @@
-Invoking command in '/home/johan/mapping_sample_ros2/build/fdilink_ahrs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/mapping_sample_ros2/build/fdilink_ahrs -- -j16 -l16
-Invoked command in '/home/johan/mapping_sample_ros2/build/fdilink_ahrs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/mapping_sample_ros2/build/fdilink_ahrs -- -j16 -l16
-Invoking command in '/home/johan/mapping_sample_ros2/build/fdilink_ahrs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/mapping_sample_ros2/build/fdilink_ahrs
-Invoked command in '/home/johan/mapping_sample_ros2/build/fdilink_ahrs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/mapping_sample_ros2/build/fdilink_ahrs

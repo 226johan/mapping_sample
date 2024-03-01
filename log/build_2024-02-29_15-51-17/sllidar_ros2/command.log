@@ -1,6 +1,0 @@
-Invoking command in '/home/johan/mapping_sample_ros2/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/mapping_sample_ros2/src/sensors/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/johan/mapping_sample_ros2/install/sllidar_ros2
-Invoked command in '/home/johan/mapping_sample_ros2/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/johan/mapping_sample_ros2/src/sensors/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/johan/mapping_sample_ros2/install/sllidar_ros2
-Invoking command in '/home/johan/mapping_sample_ros2/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/mapping_sample_ros2/build/sllidar_ros2 -- -j16 -l16
-Invoked command in '/home/johan/mapping_sample_ros2/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/johan/mapping_sample_ros2/build/sllidar_ros2 -- -j16 -l16
-Invoking command in '/home/johan/mapping_sample_ros2/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/mapping_sample_ros2/build/sllidar_ros2
-Invoked command in '/home/johan/mapping_sample_ros2/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/johan/mapping_sample_ros2/build/sllidar_ros2

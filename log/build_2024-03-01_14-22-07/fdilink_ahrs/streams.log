@@ -1,0 +1,120 @@
+[0.254s] Invoking command in '/home/johan/mapping_sample_ros2/build/fdilink_ahrs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2 -DCMAKE_INSTALL_PREFIX=/home/johan/mapping_sample_ros2/install/fdilink_ahrs
+[0.290s] -- The C compiler identification is GNU 9.4.0
+[0.325s] -- The CXX compiler identification is GNU 9.4.0
+[0.328s] -- Check for working C compiler: /usr/bin/cc
+[0.375s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.375s] -- Detecting C compiler ABI info
+[0.422s] -- Detecting C compiler ABI info - done
+[0.434s] -- Detecting C compile features
+[0.434s] -- Detecting C compile features - done
+[0.435s] -- Check for working CXX compiler: /usr/bin/c++
+[0.488s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.489s] -- Detecting CXX compiler ABI info
+[0.546s] -- Detecting CXX compiler ABI info - done
+[0.559s] -- Detecting CXX compile features
+[0.560s] -- Detecting CXX compile features - done
+[0.564s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.580s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.581s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.698s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.730s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.735s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.797s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.820s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.874s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.911s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.912s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.913s] -- Looking for pthread.h
+[0.958s] -- Looking for pthread.h - found
+[0.958s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.005s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.005s] -- Looking for pthread_create in pthreads
+[1.045s] -- Looking for pthread_create in pthreads - not found
+[1.045s] -- Looking for pthread_create in pthread
+[1.093s] -- Looking for pthread_create in pthread - found
+[1.094s] -- Found Threads: TRUE  
+[1.206s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.207s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.285s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[1.292s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[1.604s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.775s] -- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[1.784s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.786s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.815s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.918s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.919s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.919s] -- Configured cppcheck include dirs: /home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/include;/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src
+[1.920s] -- Configured cppcheck exclude dirs and/or files: 
+[1.920s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.921s] -- Configured cpplint exclude dirs and/or files: 
+[1.921s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.922s] -- Added test 'lint_cmake' to check CMake code style
+[1.922s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.923s] -- Added test 'uncrustify' to check C / C++ code style
+[1.923s] -- Configured uncrustify additional arguments: 
+[1.923s] -- Added test 'xmllint' to check XML markup files
+[1.927s] -- Configuring done
+[1.935s] -- Generating done
+[1.936s] -- Build files have been written to: /home/johan/mapping_sample_ros2/build/fdilink_ahrs
+[1.946s] Invoked command in '/home/johan/mapping_sample_ros2/build/fdilink_ahrs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2 -DCMAKE_INSTALL_PREFIX=/home/johan/mapping_sample_ros2/install/fdilink_ahrs
+[1.947s] Invoking command in '/home/johan/mapping_sample_ros2/build/fdilink_ahrs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/johan/mapping_sample_ros2/build/fdilink_ahrs -- -j16 -l16
+[1.977s] [35m[1mScanning dependencies of target ahrs_driver_node[0m
+[2.044s] [ 66%] [32mBuilding CXX object CMakeFiles/ahrs_driver_node.dir/src/crc_table.cpp.o[0m
+[2.045s] [ 66%] [32mBuilding CXX object CMakeFiles/ahrs_driver_node.dir/src/ahrs_driver.cpp.o[0m
+[3.302s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:[m[K In member function ‘[01m[Kvoid FDILink::ahrsBringup::processLoop()[m[K’:
+[3.302s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:122:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kground_sn_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.302s]   122 |       size_t [01;35m[Kground_sn_s[m[K = serial_.read(ground_sn, 1);
+[3.302s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[3.302s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:147:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kground_ignore_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.302s]   147 |       size_t [01;35m[Kground_ignore_s[m[K = serial_.read(ground_ignore, (check_len[0] + 4));
+[3.303s]       |              [01;35m[K^~~~~~~~~~~~~~~[m[K
+[3.315s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:198:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdata_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.315s]   198 |       size_t [01;35m[Kdata_s[m[K = serial_.read(imu_frame_.read_buf.read_msg, (IMU_LEN + 1));  // 48+1
+[3.315s]       |              [01;35m[K^~~~~~[m[K
+[3.339s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:239:26:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kq_xiao_rr[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[3.339s]   239 |       Eigen::Quaterniond [01;35m[Kq_xiao_rr[m[K = Eigen::AngleAxisd(PI / 2, Eigen::Vector3d::UnitZ()) *
+[3.340s]       |                          [01;35m[K^~~~~~~~~[m[K
+[3.340s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:95:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktype_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.340s]    95 |     size_t [01;35m[Ktype_s[m[K = serial_.read(head_type, 1);
+[3.340s]       |            [01;35m[K^~~~~~[m[K
+[3.340s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:109:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klen_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.340s]   109 |     size_t [01;35m[Klen_s[m[K = serial_.read(check_len, 1);
+[3.340s]       |            [01;35m[K^~~~~[m[K
+[3.340s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:152:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksn_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.340s]   152 |     size_t [01;35m[Ksn_s[m[K = serial_.read(check_sn, 1);
+[3.340s]       |            [01;35m[K^~~~[m[K
+[3.340s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:154:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrc8_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.340s]   154 |     size_t [01;35m[Kcrc8_s[m[K = serial_.read(head_crc8, 1);
+[3.340s]       |            [01;35m[K^~~~~~[m[K
+[3.341s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:157:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrc16_H_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.341s]   157 |     size_t [01;35m[Kcrc16_H_s[m[K = serial_.read(head_crc16_H, 1);
+[3.341s]       |            [01;35m[K^~~~~~~~~[m[K
+[3.341s] [01m[K/home/johan/mapping_sample_ros2/src/sensors/fdilink_ahrs_ROS2/src/ahrs_driver.cpp:158:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcrc16_L_s[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.341s]   158 |     size_t [01;35m[Kcrc16_L_s[m[K = serial_.read(head_crc16_L, 1);
+[3.341s]       |            [01;35m[K^~~~~~~~~[m[K
+[4.413s] [100%] [32m[1mLinking CXX executable ahrs_driver_node[0m
+[4.534s] [100%] Built target ahrs_driver_node
+[4.544s] Invoked command in '/home/johan/mapping_sample_ros2/build/fdilink_ahrs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/johan/mapping_sample_ros2/build/fdilink_ahrs -- -j16 -l16
+[4.567s] Invoking command in '/home/johan/mapping_sample_ros2/build/fdilink_ahrs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/johan/mapping_sample_ros2/build/fdilink_ahrs
+[4.572s] -- Install configuration: ""
+[4.572s] -- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/lib/fdilink_ahrs/ahrs_driver_node
+[4.572s] -- Set runtime path of "/home/johan/mapping_sample_ros2/install/fdilink_ahrs/lib/fdilink_ahrs/ahrs_driver_node" to ""
+[4.572s] -- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/launch
+[4.573s] -- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/launch/ahrs_driver.launch.py
+[4.573s] -- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/ament_index/resource_index/package_run_dependencies/fdilink_ahrs
+[4.573s] -- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/ament_index/resource_index/parent_prefix_path/fdilink_ahrs
+[4.573s] -- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/environment/ament_prefix_path.sh
+[4.573s] -- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/environment/ament_prefix_path.dsv
+[4.573s] -- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/environment/path.sh
+[4.573s] -- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/environment/path.dsv
+[4.573s] -- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.bash
+[4.573s] -- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.sh
+[4.573s] -- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.zsh
+[4.573s] -- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/local_setup.dsv
+[4.574s] -- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/package.dsv
+[4.574s] -- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/ament_index/resource_index/packages/fdilink_ahrs
+[4.574s] -- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/cmake/fdilink_ahrsConfig.cmake
+[4.574s] -- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/cmake/fdilink_ahrsConfig-version.cmake
+[4.574s] -- Installing: /home/johan/mapping_sample_ros2/install/fdilink_ahrs/share/fdilink_ahrs/package.xml
+[4.575s] Invoked command in '/home/johan/mapping_sample_ros2/build/fdilink_ahrs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/johan/mapping_sample_ros2/build/fdilink_ahrs

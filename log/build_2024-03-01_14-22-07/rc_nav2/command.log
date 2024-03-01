@@ -1,0 +1,6 @@
+Invoking command in '/home/johan/mapping_sample_ros2/build/rc_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/johan/mapping_sample_ros2/src/rc_nav2 -DCMAKE_INSTALL_PREFIX=/home/johan/mapping_sample_ros2/install/rc_nav2
+Invoked command in '/home/johan/mapping_sample_ros2/build/rc_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/johan/mapping_sample_ros2/src/rc_nav2 -DCMAKE_INSTALL_PREFIX=/home/johan/mapping_sample_ros2/install/rc_nav2
+Invoking command in '/home/johan/mapping_sample_ros2/build/rc_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/johan/mapping_sample_ros2/build/rc_nav2 -- -j16 -l16
+Invoked command in '/home/johan/mapping_sample_ros2/build/rc_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/johan/mapping_sample_ros2/build/rc_nav2 -- -j16 -l16
+Invoking command in '/home/johan/mapping_sample_ros2/build/rc_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/johan/mapping_sample_ros2/build/rc_nav2
+Invoked command in '/home/johan/mapping_sample_ros2/build/rc_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/johan/mapping_sample_ros2/build/rc_nav2
