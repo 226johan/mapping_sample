@@ -5,11 +5,13 @@
 编译
 colcon build
 
+ros2 launch fdilink_ahrs ahrs_driver.launch.py
 
-"ros2 launch fdilink_ahrs ahrs_driver.launch.py"
-"ros2 launch sllidar_ros2 sllidar_s2_launch.py"
-"ros2 launch rc_nav2 robot_localization.launch.py"
-"ros2 launch rc_nav2 online_async.launch.py"
+ros2 launch sllidar_ros2 sllidar_s2_launch.py
+
+ros2 launch rc_nav2 robot_localization.launch.py
+
+ros2 launch rc_nav2 online_async.launch.py
 
 # 功能包
 
