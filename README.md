@@ -3,7 +3,7 @@
 实验环境： \
 ubuntu22.04 humble \
 ubuntu20.04 foxy rc_nav2 部分存在问题，暂未解决 \
-代完善：行为树部分 \
+代完善：行为树部分 
 
 # 使用
 编译
@@ -25,12 +25,12 @@ ros2 launch rc_nav2 bringup_no_amcl_launch.py
 imu驱动 \
 修改了驱动源码 只发布imu的数据 修改了数据校验逻辑 \
 创建ahrs_bringup节点 \
-publisher: sensor_msgs::msg::Imu   /imu \
+publisher: sensor_msgs::msg::Imu   /imu 
 
 ## sllidar_ros2
 激光雷达驱动 \
 创建sllidar_node节点 \
-publisher: sensor_msgs::msg::Laserscan /scan \
+publisher: sensor_msgs::msg::Laserscan /scan 
 
 ## rc_nav2
 ### 传感器数据融合 
@@ -41,7 +41,7 @@ publisher: sensor_msgs::msg::Laserscan /scan \
         map_frame: map              # Defaults to "map" if unspecified \
         odom_frame: odom            # Defaults to "odom" if unspecified \
         base_link_frame: base_link  # Defaults to "base_link" ifunspecified \
-        world_frame: odom           # Defaults to the value ofodom_frame if unspecified \
+        world_frame: odom           # Defaults to the value ofodom_frame if unspecified 
 
 ### 本地地图构建
 使用slam_tools框架
